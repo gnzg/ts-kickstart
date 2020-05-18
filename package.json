@@ -1,0 +1,26 @@
+{
+  "name": "ts-kickstart",
+  "version": "1.0.0",
+  "description": "A ready to go template for kickstarting a TypeScript project",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "webpack --config ./webpack.config.js"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "web",
+    "development"
+  ],
+  "author": "Ilya Ginzburg",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/lodash": "^4.14.151",
+    "lodash": "^4.17.15",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.9.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
